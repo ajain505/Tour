@@ -1,0 +1,263 @@
+/* .bod{
+  border: 1px solid red !important;
+} */
+
+/* header */
+  .nav_link{
+    padding: 0rem 0.5rem !important;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  .nav_link:hover{
+    color: #f6f2ef;
+    border-bottom: 2px solid #f6f2ef;
+    transition: all ease-in-out .2s;
+
+  }
+  .nav_btn{
+    margin: 0rem 0.1rem;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1.3rem !important;
+    background-color: transparent;
+    color: white;
+    border: 0.1px solid whitesmoke;
+  }
+  .nav_btn:hover{
+    background-color: #f85959e4;
+    border: none;
+  }
+
+  .nav_bar{
+    font-size: 2.6rem;
+    color: #ffffff;
+  }
+
+  /* hero section */
+  .hero_bg{
+    background-image: url(images/prject_img/bg18.jpg);
+    background-size: cover;
+  }
+  .hero_title{
+    padding: 8rem 0rem;
+  }
+  .hero_btn{
+   padding: 0.9rem 1.2rem;
+   background-color: white;
+   border-radius: 0.3rem;
+   color:#777777;
+   font-size: 1.5rem;
+   align-items:center;
+  }
+  .hero_btn:hover{
+    background-color: #f85959e4;
+    color: rgb(242, 240, 240);
+  }
+  .hero_icon{
+    width: 2.2rem;
+    color: #777777;
+  } 
+  .hero_links,a{
+    margin-right: 2rem;
+  }
+
+  /* form */
+  .form-control{
+      padding: 1rem 0rem;
+      padding-right: 12rem;
+      padding-left: 2.5rem;
+      font-size: 1.4rem;
+      border-radius: 0.2rem;
+      color:#777777;
+  }
+  .icon{
+      position: absolute;
+      left: 53%;
+      bottom:37%;
+      font-size:1rem;
+      color: #a9a9a9;
+  }
+  .search-submit{
+      width:18%;
+      background: #f85959e4;
+      border:1px solid #915c5c;
+      color:#fff;
+      padding: 2rem 2rem;
+  }
+
+/* carousal */
+.carousel-control-prev-icon{
+  background-color: rgba(118, 114, 114, 0.521);
+  border-radius: 50%;
+  padding: 1.3rem !important;
+}
+.carousel-control-next-icon{
+  background-color: rgba(118, 114, 114,0.521);
+  border-radius: 50%;
+  padding: 1.3rem !important;
+}
+.carousel-item img{
+  height: 60rem !important;
+}
+  
+
+/* special offers */
+.card2_icon{
+  width: 1.8rem;
+}
+.card2_btn{
+  padding: 0.4rem 0.7rem !important;
+  font-size: 1.2rem;
+  background-color: #8bc34a;
+  color:white;
+  border: none; 
+  border-radius: 0.5rem;
+
+}
+.cl{
+  color: #2f89fc;
+}
+.imgh{
+  height: 25rem;
+}
+.imghe{
+  height: 20rem;
+}
+.bora{
+  border-radius: 1.2rem;
+}
+.scht{
+  height: 50rem;
+}
+
+
+
+  
+
+@media screen and (max-width: 780px) {
+  .imgh{
+      height: auto;
+  }
+}
+
+/* fun facts */
+.bg_ff{
+    background-size: cover; 
+    background-repeat:no-repeat;
+    padding: 9.5rem 0rem ;
+	margin: 3rem 0rem;
+}
+
+.counters {
+	color: rgb(255, 255, 255);
+	padding: 8rem 3.5rem;
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+    font-size: 3.7rem;
+	margin: 10px 0;
+}
+@media (max-width: 700px) {
+	.counters {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters > div:nth-of-type(1),
+	.counters > div:nth-of-type(2) {
+		border-bottom: 1px lightskyblue solid;
+		padding-bottom: 20px;
+	}
+}
+
+ /* why section */
+ p{
+    font-size: 1.7rem !important;
+  }
+.why_card{
+	  padding: 5rem;
+	  min-height: 27;
+}
+.brd{
+	  border-radius: 50%;
+}
+/* about */
+.about_hero{
+  padding: 22rem 0rem !important;
+}
+.diml{
+  color: #c7c4c4 !important;
+}
+
+
+
+/* footer */
+.footer_link a{
+    font-size: 1.7rem;
+	color: #9f9f99;
+}
+.footer_link a:hover{
+	color: #5fb4af !important;
+}
+
+.footer_icons {
+    padding-right: 0.4rem !important;
+}
+.ft_icon{
+    color: #5fb4af;
+}
+.footer_bg{
+    background-color: #222831;
+    color: #f7f7f7e0;
+}
+.footer_bg2{
+    background-color: #222831;
+	color: #9f9f99;
+}
+.footer_bg2 a{
+	color: #5fb4af;
+}
+.fwr{
+	flex-wrap: wrap;
+}
+
+/* toggle */
+
+.abt_btn{
+  background-color: #d4e7ed !important;
+  color: #222831 !important;
+}
+.dhide {
+	display: none;
+}
+
+.dblock {
+	display: block;
+}
+
+/* acordian */
+.accordion-button{
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 992px){
+
+}
+
+
+
+  @media screen and (max-width: 799px) {
+	.mhide {
+	  display: none !important;
+	}
+  
+	.mblock {
+	  display: block !important;
+	}
+  }
+ 
+    
+  @media screen and (max-width: 500px) {
+	.tc{
+		text-align: center;
+	}
+  }
